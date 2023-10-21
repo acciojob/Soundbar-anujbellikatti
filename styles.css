@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+*{
+	background-color:#A164DF;
+}
+#button{
+/* 	flex:grid;  */
+	height:100vh;
+	width:100vw;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:wrap
+}
+.btn{
+	background-color:#663399;
+	color:white;
+	padding:15px;
+	border-radius:5px;
+	width:90px;
+	border:none;
+	margin:25px;
+	cursor:pointer
+}
+@media screen and (max-width: 1250px){
+	.btn{
+	display:flex;
+		flex-direction:column;
+}
+	@media screen and (max-width: 750px){
+	.btn{
+		margin:-30px;
+	width:100vw;
+}
+	
+}
